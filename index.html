@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ichiraku Ramen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+      <nav>
+            <img src="https://media.tenor.com/lO6HqZ3I2dIAAAAi/e.gif" alt="Logo" class="logo-img">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#specials">Specials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Welcome to Ichiraku Ramen</h2>
+            <p>The ultimate Naruto-themed dining experience!</p>
+            <img src="https://media.tenor.com/w9aq-JnqRm8AAAAi/naruto-eat.gif" alt="Naruto Eating" class="naruto-gif">
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Ichiraku Ramen is the favorite spot for Naruto fans worldwide. Dive into authentic Japanese flavors and live the anime dream!</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="filter-buttons">
+            <button onclick="filterMenu('all')">All</button>
+            <button onclick="filterMenu('veg')">Vegetarian</button>
+            <button onclick="filterMenu('non-veg')">Non-Vegetarian</button>
+            <button onclick="filterMenu('special')">Special</button>
+        </div>
+        <div class="menu-items" id="menu-list">
+            <div class="item veg">Vegetarian Ramen</div>
+            <div class="item veg">Miso Soup</div>
+            <div class="item non-veg">Naruto Special Ramen</div>
+            <div class="item non-veg">Chicken Katsu</div>
+            <div class="item veg">Veg Tempura</div>
+            <div class="item non-veg">Pork Tonkotsu Ramen</div>
+            <div class="item special">Ichiraku Deluxe Ramen</div>
+            <div class="item special">Naruto's Favorite Meal Combo</div>
+        </div>
+    </section>
+
+    <!-- Specials Section -->
+    <section id="specials" class="specials">
+    <h2>Chef's Specials</h2>
+    <div class="special-carousel">
+        <div class="special-card">
+            <img src="https://awajishima-resort.com/wp-content/uploads/2022/09/ramen-image.jpg" alt="Ramen Special">
+            <p>Signature Ichiraku Ramen</p>
+        </div>
+        <div class="special-card">
+            <img src="https://en.awajishima-resort.com/wp-content/uploads/2024/09/image-16.png" alt="Special Sushi">
+            <p>Authentic Japanese Sushi</p>
+        </div>
+        <div class="special-card">
+            <img src="https://awajishima-resort.com/wp-content/uploads/2022/09/hunburger-image.jpg" alt="Hamburger Special">
+            <p>Premium Wagyu Hamburger</p>
+        </div>
+        <div class="special-card">
+            <img src="https://awajishima-resort.com/wp-content/uploads/2022/09/cheese-burger-image.jpg" alt="Cheese Burger Special">
+            <p>Cheesy Deluxe Burger</p>
+        </div>
+        <div class="special-card">
+            <img src="https://en.awajishima-resort.com/wp-content/uploads/2024/09/image-17.png" alt="Special Dessert">
+            <p>Japanese Dessert Delight</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+    <h2>Our Ambience</h2>
+    <div class="gallery-container">
+        <!-- Existing Images -->
+        <img src="https://c4.wallpaperflare.com/wallpaper/186/311/734/friends-ichiraku-naruto-ramen-wallpaper-preview.jpg" alt="Ichiraku Friends">
+        <img src="https://i.pinimg.com/originals/82/26/6c/82266c808cadc06455031064c9d3dfc2.jpg" alt="Naruto Ramen Ambience">
+        <img src="https://media1.tenor.com/m/Ekh0CfC8_xkAAAAC/naruto-ramen.gif" alt="Naruto Eating Ramen">
+
+        <!-- New Images -->
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/3b/72/narutojapanesefood-tempura.jpg" alt="Tempura Dish">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/3b/65/narutojapanesefood-local.jpg" alt="Restaurant Interior">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/3b/76/narutojapanesefood-butadon.jpg" alt="Butadon Dish">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/3b/70/narutojapanesefood-tofu.jpg" alt="Tofu Dish">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/3b/6f/narutojapanesefood-mix.jpg" alt="Mixed Platter">
+
+        <!-- Extra Requested Images -->
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/3b/5d/narutojapanesefood-local.jpg?w=1000&h=-1&s=1" alt="Local Ambience">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/40/3b/59/narutojapanesefood-local.jpg?w=1000&h=-1&s=1" alt="Restaurant Dining Area">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2b/2f/b0/naruto-japanese-food.jpg?w=1000&h=-1&s=1" alt="Japanese Food Table">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/49/3a/e3/naruto-japanese-food.jpg?w=1000&h=-1&s=1" alt="Naruto Theme Restaurant">
+    </div>
+</section>
+
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <h2>Book a Table</h2>
+        <form onsubmit="confirmReservation(event)">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="date" required>
+            <input type="time" required>
+            <button type="submit">Reserve Now</button>
+        </form>
+        <div id="success-popup" class="popup">
+            <img src="https://media1.tenor.com/m/7GyHsInT8uoAAAAC/naruto.gif" alt="Naruto Celebration">
+            <p>Thank you! Your table is booked.</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+  <h2>📍 Find Us in Vijayawada</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.856413346242!2d80.62951631480434!3d16.50617488860951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35eff74c3c77e3%3A0xc0d0aa5d6d2ecb9b!2sVijayawada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+    width="100%"
+    height="300"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <h2>From Our Blog</h2>
+        <div class="blog-posts">
+            <div class="post">
+                <h3>Top 5 Naruto Foods You Must Try!</h3>
+                <p>Explore iconic dishes from the Naruto universe that you can taste right here!</p>
+            </div>
+            <div class="post">
+                <h3>Secret Recipe of Ichiraku Ramen</h3>
+                <p>Dive into the history and flavor of the world-famous ramen that Naruto loves.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

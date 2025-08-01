@@ -1,0 +1,225 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  scroll-behavior: smooth;
+}
+header {
+  background: #222;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo-img {
+  width: 80px;
+  border-radius: 50%;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.hero {
+  background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/43/0f/51/naruto-japanese-food.jpg?w=1000&h=-1&s=1') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hero .btn {
+  display: inline-block;
+  background: #e74c3c;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.naruto-gif {
+  width: 150px;
+  margin: 20px 0;
+}
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.filter-buttons {
+  margin-bottom: 20px;
+}
+.filter-buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+.item {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.gallery {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #111;
+  color: #fff;
+}
+.specials {
+  padding: 50px 20px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+
+.specials h2 {
+  font-family: "Bangers", cursive;
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.special-carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.special-card {
+  flex: 0 0 auto;
+  width: 250px;
+  background: #333;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.special-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.special-card p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #ffcc00;
+}
+
+.special-card:hover {
+  transform: scale(1.05);
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.gallery-container img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.reservation form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+.reservation input, .reservation button {
+  padding: 12px;
+  margin: 10px 0;
+}
+.reservation button {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 15px;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  z-index: 200;
+}
+.popup img {
+  width: 150px;
+}
+.popup button {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
