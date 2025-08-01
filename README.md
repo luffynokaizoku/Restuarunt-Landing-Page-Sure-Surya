@@ -5,7 +5,7 @@ This is a Naruto-themed animated restaurant landing page for **Ichiraku Ramen**,
 
 ---
 
-## 📌 Student Details
+##  Student Details
 
 - **Name**: Sure Sri Venkat Rama Surya  
 - **Roll No**: 231FA04442  
