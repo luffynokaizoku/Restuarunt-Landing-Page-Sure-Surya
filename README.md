@@ -15,9 +15,9 @@ This is a Naruto-themed animated restaurant landing page for **Ichiraku Ramen**,
 
 ## 📂 Folder Structure
 HTML/
-├── index.html # Main landing page structure
-├── style.css # All custom styles and responsive design
-└── script.js # JavaScript for dynamic interactions
+├── index.html
+├── style.css
+└── script.js
 
 ---
 
