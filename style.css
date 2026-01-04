@@ -213,13 +213,14 @@ footer {
   z-index: 200;
 }
 .popup img {
-  width: 150px;
+  width: 120px;
 }
 .popup button {
   background: #e74c3c;
   color: #fff;
-  border: none;
+  border: solid;
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
+
 }
