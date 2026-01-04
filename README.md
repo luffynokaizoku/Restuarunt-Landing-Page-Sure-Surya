@@ -1,4 +1,4 @@
-# 🍜 Ichiraku Ramen - Restaurant Landing Pag
+# 🍜 Ichiraku Ramen - Restaurant Landing Page
 
 
 
